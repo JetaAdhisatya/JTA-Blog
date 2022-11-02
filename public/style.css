@@ -1,0 +1,121 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+/* Style */
+body
+{
+    font:16px/28px, arial, sans-serif;
+    background-color:#eaeaea;
+    color:#333;
+    background-image:url(source/email-pattern.png);
+}
+
+
+.container
+{
+    width:800px;
+    margin:0 auto;
+    background-color:white;
+}
+
+.header
+{
+    padding:20px;
+    padding-bottom:10px;
+}
+
+.header .mywebsite
+{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.header ul li
+{
+    margin-top:20px;
+    display: inline-block;
+    margin-right:10px;
+}
+
+
+.header a
+{
+    text-decoration:none;
+    color:salmon;
+
+}
+
+.header a:hover
+{
+    background-color:lightskyblue;
+    color:white;
+}
+
+.header a:active
+{
+    font-style:italic;
+}
+
+.image-hero
+{
+    height:300px;
+    background-image:url(source/hero.jpg);
+    background-size:cover;
+    background-position:0 -200px;
+    border-top:5px solid salmon;
+    border-bottom:5px solid rgb(28, 184, 28);
+}
+
+.image-thanos
+{
+    height:300px;
+    background-image:url(source/thanos.jpg);
+    background-size:cover;
+    background-position:0 -70px;
+    border-top:5px solid salmon;
+    border-bottom:5px solid rgb(28, 184, 28);
+}
+
+.konten
+{
+    padding:20px;
+}
+
+.konten h2
+{
+    font-size: 30px;
+}
+
+.konten .penulis
+{
+    font-size:10px;
+    margin-top:-5px;
+}
+
+.konten .penulis a
+{
+    text-decoration:none;
+    color:salmon;
+}
+
+.konten p
+{
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+.footer
+{
+    background-color: #333;;
+    padding:20px;
+}
+
+.footer .copyright
+{
+    color:white;
+    font-size:14px;
+    text-align:center;
+}
